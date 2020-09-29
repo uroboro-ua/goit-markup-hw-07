@@ -35,5 +35,9 @@
     width: 200px;
     height: 50px;
     padding: 10px 31px;
+
+    &:hover {
+      background-color: #188ce8;
+    }
   }
 }

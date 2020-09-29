@@ -192,11 +192,19 @@
   &__form-link {
     color: $blue-link;
     text-decoration: underline;
+
+    &:hover {
+      color: #188ce8;
+    }
   }
 
   &__form-button {
     width: 200px;
     height: 50px;
     padding: 10px 55px;
+
+    &:hover {
+      background-color: #188ce8;
+    }
   }
 }
