@@ -1,11 +1,7 @@
 body {
   background-color: $white;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
+  @include font("Roboto", 14px, normal, 400, 16px, 0.03em);
   color: $grey-text;
-  letter-spacing: 0.03em;
 }
 h1,
 h2,

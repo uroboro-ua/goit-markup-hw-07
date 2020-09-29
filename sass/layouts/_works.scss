@@ -31,10 +31,9 @@
     height: 70px;
     padding-top: 25px;
     background-color: rgba(47, 48, 58, 0.8);
-    font-weight: bold;
+    @include font("Roboto", 14px, normal, 700, 16px, 0.03em);
     color: $white;
     text-align: center;
-    text-justify: auto;
     text-transform: uppercase;
   }
 }

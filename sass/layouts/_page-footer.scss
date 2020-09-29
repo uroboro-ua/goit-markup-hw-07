@@ -25,6 +25,7 @@
     text-decoration: none;
   }
   &__address {
+    @include font("Roboto", 14px, normal, 400, 24px, 0.03em);
     color: $white;
   }
 
@@ -36,8 +37,7 @@
   }
   &__social-heading {
     margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 14px;
+    @include font("Roboto", 14px, normal, 700, 16px, 0.03em);
     color: $white;
     text-transform: uppercase;
   }

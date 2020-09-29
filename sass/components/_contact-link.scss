@@ -1,7 +1,7 @@
 .contact__link {
   display: flex;
   align-items: center;
-  color: $grey-text;
+  @include font("Roboto", 14px, normal, 500, 16px, 0.02em);
   text-decoration: none;
 
   &:hover {

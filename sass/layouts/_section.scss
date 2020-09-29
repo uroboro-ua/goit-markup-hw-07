@@ -5,8 +5,7 @@
   &__header {
     display: block;
     padding-bottom: 50px;
-    font-size: 36px;
-    font-weight: bold;
+    @include font("Roboto", 36px, normal, 700, 42px, 0.03em);
     color: $black-heading;
     text-align: center;
   }

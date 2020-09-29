@@ -25,14 +25,13 @@
   &__fullname {
     margin-top: 30px;
     margin-bottom: 10px;
-    font-size: 16px;
+    @include font("Roboto", 16px, normal, 500, 19px, 0.03em);
     color: $black-heading;
     text-align: center;
   }
   &__description {
     margin-bottom: 16px;
-    font-weight: normal;
-    font-size: 16px;
+    @include font("Roboto", 16px, normal, 400, 19px, 0.03em);
     color: $grey-text;
     text-align: center;
   }

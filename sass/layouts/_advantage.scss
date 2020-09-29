@@ -39,14 +39,12 @@
 
   &__heading {
     margin-bottom: 10px;
-    font-weight: bold;
-    font-size: 14px;
+    @include font("Roboto", 14px, normal, 700, 16px, 0.03em);
     color: $black-heading;
     text-transform: uppercase;
   }
 
   &__description {
-    font-weight: normal;
-    line-height: 24px;
+    @include font("Roboto", 14px, normal, 400, 24px, 0.03em);
   }
 }

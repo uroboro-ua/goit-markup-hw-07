@@ -64,8 +64,7 @@
     margin-right: 40px;
     margin-bottom: 12px;
     margin-left: 40px;
-    font-weight: bold;
-    font-size: 20px;
+    @include font("Roboto", 20px, normal, 700, 23px, 0.03em);
     color: $black-heading;
     text-align: center;
   }
@@ -83,11 +82,7 @@
   &__form-label {
     display: block;
     margin-bottom: 4px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.01em;
+    @include font("Roboto", 12px, normal, 400, 14px, 0.01em);
   }
   &__form-list {
     position: relative;
@@ -154,6 +149,7 @@
   &__form-checkbox-label {
     position: absolute;
     left: 23px;
+    @include font("Roboto", 14px, normal, 400, 24px, 0.03em);
     cursor: pointer;
 
     &::before {
