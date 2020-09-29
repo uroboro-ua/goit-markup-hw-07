@@ -1,0 +1,13 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &__header {
+    display: block;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    color: $black-heading;
+    text-align: center;
+  }
+}

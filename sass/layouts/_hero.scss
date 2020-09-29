@@ -1,0 +1,42 @@
+.hero {
+  display: block;
+  height: 600px;
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+  &__overlay {
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    );
+  }
+  &__list {
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+    padding-top: 200px;
+  }
+  &__item {
+    display: block;
+  }
+  &__header {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    color: $white;
+    text-transform: uppercase;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    margin-bottom: 30px;
+  }
+
+  &__order {
+    width: 200px;
+    height: 50px;
+    padding: 10px 31px;
+  }
+}
