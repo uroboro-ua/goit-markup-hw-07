@@ -255,6 +255,15 @@ summary {
   src: url("../fonts/Raleway-Bold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.ttf") format("truetype");
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  src: url("../fonts/Roboto-Light.ttf") format("truetype");
+}
+
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
